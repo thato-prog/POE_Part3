@@ -7,11 +7,9 @@ AskME is a desktop-based application developed using C# WPF (.NET Framework) tha
 
 Main Features
 User Login
-
 When the application starts, users are prompted to enter a username. The username is stored in a text file named user_names.txt. If the username already exists, AskME welcomes the user back; otherwise, the new username is saved and the user is greeted as a first-time user.
 
 Voice Greeting
-
 Upon launch, the voice_greeting class uses SoundPlayer to play a prerecorded WAV audio file (ThatoBot.wav). This feature enhances user engagement before interaction with the chatbot begins.
 
 Cybersecurity Chatbot
