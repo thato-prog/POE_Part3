@@ -183,7 +183,6 @@ Deleting completed tasks
 user_name.cs
 
 Manages user-related functions by:
-
 Saving usernames
 Identifying returning users
 Displaying welcome messages
@@ -196,9 +195,7 @@ Quiz_Question_Load.cs
 Automatically loads all cybersecurity quiz questions.
 
 Question_in_quiz.cs
-
 Represents a quiz question object containing:
-
 The question
 The correct answer
 Incorrect answer options
@@ -222,7 +219,6 @@ Enter a username and begin interacting with AskME.
 Learning Outcomes Demonstrated
 
 This project demonstrates understanding of:
-
 Object-Oriented Programming (OOP)
 Windows Presentation Foundation (WPF)
 Event-driven programming
