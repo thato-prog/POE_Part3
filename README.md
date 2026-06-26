@@ -252,7 +252,6 @@ Cybersecurity awareness
 Future Improvements
 
 Possible enhancements include:
-
 Voice recognition
 Cloud-based database integration
 Advanced natural language processing
@@ -262,6 +261,6 @@ Dark and light theme options
 Improved AI training with larger datasets
 Cloud storage for user information
 Additional cybersecurity learning modules
-Conclusion
 
+Conclusion
 AskME is an educational cybersecurity assistant designed to help users enhance their understanding of online safety through interactive conversations, intelligent responses, reminder management, and quiz-based learning. The project combines C# WPF, SQL Server, ML.NET, file handling, and object-oriented programming principles to produce a complete desktop application that demonstrates both technical development skills and cybersecurity awareness.
