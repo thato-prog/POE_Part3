@@ -31,15 +31,12 @@ User: What is phishing?
 AskME: Phishing is a scam where attackers pretend to be trusted sources to steal sensitive information.
 
 Keyword Matching
-
 To improve response accuracy, the chatbot removes unnecessary words (stop words) such as:
-
 the
 is
 and
 of
 to
-
 This process allows AskME to focus on meaningful keywords before generating a response.
 
 Machine Learning (ML.NET)
