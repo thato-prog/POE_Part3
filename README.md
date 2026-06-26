@@ -40,11 +40,9 @@ to
 This process allows AskME to focus on meaningful keywords before generating a response.
 
 Machine Learning (ML.NET)
-
 The application incorporates ML.NET to enhance chatbot intelligence.
 
 The training.cs class performs the following functions:
-
 Loads training data
 Trains a text classification model
 Saves the trained model as nlp_model.zip
@@ -60,11 +58,9 @@ Users can inform AskME about topics they are interested in.
 
 Example:
 “I am interested in networking and cybersecurity.”
-
 These interests are saved in interested_topic.txt. After several interactions, AskME reminds users of their stored interests to personalize the conversation.
 
 Reminder Task Management
-
 Users can create reminder tasks through the chatbot.
 
 Example:
@@ -73,7 +69,6 @@ Then:
 Yes remind me in 3 days
 
 Each task includes:
-
 Task Name
 Task Description
 Due Date
