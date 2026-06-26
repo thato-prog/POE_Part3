@@ -53,7 +53,6 @@ Learns from unanswered questions
 When AskME cannot respond to a question, it stores the question in unknown_questions.txt for future improvement.
 
 User Interest Memory
-
 Users can inform AskME about topics they are interested in.
 
 Example:
@@ -75,7 +74,6 @@ Due Date
 Task Status
 
 Tasks are stored in a SQL Server database. Users can:
-
 Create tasks
 View tasks
 Mark tasks as completed
@@ -83,7 +81,6 @@ Delete completed tasks
 SQL Database
 
 The application uses SQL Server LocalDB.
-
 Database Name:
 tasks_prog
 
@@ -100,7 +97,6 @@ task_dueDate	Reminder date
 task_status	Pending or Done
 
 Supported database operations include:
-
 INSERT
 SELECT
 UPDATE
@@ -109,30 +105,24 @@ DELETE
 The application automatically checks if the table exists and creates it when required.
 
 Cybersecurity Quiz
-
 AskME includes an educational multiple-choice quiz.
 
 Quiz features:
-
 Randomized answer placement
 Score tracking
 Automatic reset after completion
 Multiple cybersecurity questions
 
 Quiz topics include:
-
 Password Safety
 VPN
 Safe Browsing
 Public Wi-Fi
 Phishing
-
 Each correct answer awards 5 marks.
 
 Application Pages
-
 The application is structured using WPF Grids and includes the following pages:
-
 Home Page
 Username Page
 Chat Page
@@ -153,7 +143,6 @@ Project Structure
 MainWindow.xaml
 
 Manages the graphical user interface and contains:
-
 Home screen
 Username page
 Chat interface
@@ -163,7 +152,6 @@ Navigation menu
 MainWindow.xaml.cs
 
 Serves as the controller of the application and handles:
-
 Page navigation
 Chatbot messaging
 Reminder management
@@ -173,14 +161,12 @@ User interactions
 respond.cs
 
 Contains the chatbot knowledge base, including:
-
 Cybersecurity responses
 Emotional responses
 Stop words for keyword matching
 training.cs
 
 Implements machine learning features such as:
-
 Model training
 Response prediction
 Learning from unknown questions
